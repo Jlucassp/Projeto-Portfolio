@@ -1,0 +1,292 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&family=Oswald:wght@200..700&family=Permanent+Marker&display=swap');
+
+body{
+    background-color: rgb(3, 18, 44);
+    color: rgb(255, 255, 255);
+    font-family: "Lilita One", cursive;
+}
+.header{
+    padding: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    max-width: 60px;
+    cursor: pointer;
+    border-radius: 41px;
+}
+.logo:hover{
+    transform: scale(1.2);
+}
+.menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Permanent Marker";
+    gap: 40px;
+    font-size: 32px;
+    font-weight: bold;
+    padding: 30px;
+    padding-left: 200px;
+}
+.menu a{
+    text-decoration: none;
+    color: rgb(61, 174, 182);
+    cursor: pointer;
+}
+.menu a:hover{
+    color: rgb(1, 71, 77);
+}
+.curriculo{
+    background-color: rgb(61,174, 182);
+    color: white;
+    text-decoration: none;
+    font-family: "Permanent Marker";
+    font-size: 32px;
+    border-radius: 20px;
+    padding: 10px 20px;
+}
+.curriculo:hover{
+    background-color: rgb(1, 71, 77);
+}
+.principal{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    background-image: url("https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExYjJxYTFqZ3dtaG05anJpYW1wY3VlNTBjZHJod2x6NHFjdWZwbXhmaSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/IeSXccYMz3K4U/giphy.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: -600px;
+}
+.perfil img{
+    max-width: 400px;
+    border-radius: 50%;
+    border: 5px solid white;
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.4);
+}
+.perfil{
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 30px;
+    border-radius: 0px 0px 100px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+    font-family: "Permanent Marker", cursive;
+}
+.nome_perfil{
+    font-size: 70px;
+}
+.profissao_perfil{
+    font-size: 39px;
+    color: rgb(61, 174, 182);
+}
+.sobre{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 150px;
+    max-width: 80vw;
+    margin: 0 auto;
+    margin-top: 100px;
+    border-top: 10px solid rgb(61, 174, 182);
+    padding-top: 50px;
+}
+.sobre_info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 250px;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+.sobre_info img{
+    max-width: 500px;
+    border-radius: 200px 0px 200px 200px;
+}
+.sobre_titulo{
+    font-size: 60px;
+    font-weight: bold;
+    font-family: "Permanent Marker";
+    position: relative;
+    margin-bottom: 25px;
+}
+.sobre_titulo::after {
+    content: "";
+    background-image: url("./Fotos/—Pngtree—brush\ cyan\ brush\ stroke_7253038.png");
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    top: -30px;
+    left: 2px;
+    height: 100px;
+    width: 155px;
+    z-index: -1;
+}
+.sobre_info p{
+    font-size: 28px;
+    line-height: 1.5;
+}
+.sobre_texto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 700px;
+}
+
+.cursos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 80vw;
+    gap: 100px;
+    margin: 0 auto;
+    border-top: 10px solid rgb(61, 174, 182);
+    padding-top: 50px;
+}
+.cursos_titulo{
+    max-width: 500px;
+    font-size: 240px;
+    word-wrap: break-word;
+    font-family: "Permanent Marker";
+    line-height: 1.2;
+}
+.grade_cursos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+.curso{
+    max-width: 600px;
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 30px;
+    padding: 40px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 20px;
+}
+.curso_titulo {
+    font-size: 24px;
+    color: rgb(1, 71, 77);
+    position: relative;
+}
+.curso_titulo::before {
+    content: "";
+    height: 30px;
+    width: 15px;
+    border-radius: 5px;
+    background: linear-gradient(
+      90deg,
+      rgba(2, 0, 36, 1) 0%,
+      rgb(1, 71, 77) 35%,
+      rgb(61, 174, 182) 100%
+    );
+    position: absolute;
+    left: -40px;
+    top: -5px;
+}
+.curso_nome {
+    color: rgb(61, 174, 182);
+}
+.curso_texto {
+    line-height: 1.3;
+    font-size: 18px;
+}
+.curso_horas {
+    color: #7c93f6;
+}
+
+.projetos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 80vw;
+    margin: 0 auto;
+    margin-top: 50px;
+    border-top: 10px solid rgb(61, 174, 182);
+    padding-top: 50px;
+}
+.projetos_titulo{
+    font-size: 60px;
+    letter-spacing: 5px;
+    font-weight: bold;
+    font-family: "Permanent Marker";
+    margin-bottom: 50px;
+    position: relative;
+}
+.projetos_titulo::before {
+    content: "";
+    background-image: url("./Fotos/—Pngtree—brush\ cyan\ brush\ stroke_7253038.png");
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    top: -30px;
+    height: 110px;
+    width: 100%;
+    z-index: -1;
+}
+.card_projeto {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 40px;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 40px;
+    border-radius: 40px;
+}
+.card_projeto img {
+    max-width: 500px;
+    border-radius: 40px;
+}
+.projeto_info {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 15px;
+}
+.card_titulo {
+    font-size: 32px;
+}
+.card_subtitulo {
+    font-size: 22px;
+    font-style: italic;
+    color: rgb(1, 71, 77);
+}
+.card_texto {
+    max-width: 500px;
+    font-size: 18px;
+    line-height: 1.4;
+}
+
+.footer {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    border-top: 10px solid rgb(61, 174, 182);
+    padding: 20px 0;
+}
+.footer_copy {
+    font-size: 24px;
+  }
+  .footer_curso {
+    font-size: 20px;
+    color: #7b7579;
+  }
+  .footer_autor {
+    font-size: 16px;
+    color: rgb(1, 71, 77);
+    font-style: italic;
+}
